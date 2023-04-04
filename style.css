@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    width: 100vw;
+    height: 500px;
+    background: rgb(228,108,161);
+    background: radial-gradient(circle, rgba(228,108,161,1) 12%, rgba(148,154,233,1) 100%);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    margin-top: 80px;
+    font-family: 'Poiret One', cursive;
+}
+
+ h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ p, li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #434044;
+}
+.list {
+    list-style-type: none;
+} 
+
+.icon {
+    color:#ffffff;
+}
+.icon:hover {
+   color:#bb84c6;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list li {
+    margin-right: 1rem;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-info img {
+    border-radius: 50%;
+    display: block;
+    height: 360px;
+}
+
+.about {
+    margin-left: 8%;
+}
+
+.about p {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.contact-info {
+    align-self: center;
+}
+.dowload-resume {
+    display: flex;
+    flex-direction: column;
+}
+
+.dowload-resume button {
+    margin-bottom: 20px;
+}
+
+button {
+    width: 150px;
+    height:50px;
+    border:none;
+    border-radius: 5px;
+    background: rgb(228,108,161);
+    background: radial-gradient(circle, rgba(228,108,161,1) 12%, rgba(148,154,233,1) 100%);
+    color: white;
+    }
+    
+    button:hover {
+      border: 2px solid #bb84c6;
+      background: white;
+      color: #bb84c6;
+      cursor: pointer;
+    }
+
+    .link {
+            text-decoration: none;
+            font-size: 17px;
+            color:inherit;
+    }
+
+    .projects {
+        margin-top: 40px;
+        margin-bottom: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project_card {
+        width:380px;
+        display: grid;
+        grid-template-rows: 3fr 1fr 1fr 1fr 4fr 1fr;
+        justify-items: center;
+    }
+
+    .project_img {
+       width:350px;
+    }
+
+    .tasks {
+        text-align: justify;
+    }
+
